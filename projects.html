@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>My Work</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#137fec",
+              "background-light": "#f6f7f8",
+              "background-dark": "#101922",
+            },
+            fontFamily: {
+              "display": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-gray-900 dark:text-white">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<div class="px-4 sm:px-6 lg:px-8 xl:px-10 flex flex-1 justify-center py-10">
+<div class="layout-content-container flex flex-col max-w-7xl flex-1">
+<div class="flex flex-wrap justify-between items-center gap-4 p-4">
+<p class="text-4xl font-black leading-tight tracking-[-0.033em] min-w-72">My Work</p>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/90 transition-colors">
+<span class="truncate">Add Project</span>
+</button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 p-4">
+<div class="flex flex-col items-stretch justify-start rounded-xl shadow-lg bg-white dark:bg-[#1c2127] transition-all hover:shadow-2xl hover:-translate-y-1">
+<div class="relative w-full bg-center bg-no-repeat aspect-video bg-cover rounded-t-xl" data-alt="Abstract gradient of blue and purple" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDUB9ykwpQ24jhXRCkKPuZQqGR38Qxs7bv2wXLvJmJ7N-JCKPTBT3I5nViWRRIkwxSpCj49zHXp-c4MhVUKoR005miVoj1lF_MDQ39G4g1taXxQWsMUpRsR-iAErzr3uh7C38ljdhmI03wltISOayoHx0gOc05fEk2LJTsgF5PpZd7YVA4BY1WRJGBnTgrhw0BIqD7Euwfb3BqBoTFhQPirrr_VC5l1FW0wJUATezunnunJQaLFOzJD1HuPvZLuHcUwGtY0qRFLir8r");'></div>
+<div class="flex flex-col flex-grow items-stretch justify-between p-6">
+<div class="flex flex-col gap-2">
+<p class="text-xl font-bold leading-tight tracking-[-0.015em] text-gray-900 dark:text-white">Portfolio Website</p>
+<p class="text-gray-600 dark:text-[#9dabb9] text-base font-normal leading-normal">A personal portfolio website to showcase my projects and skills.</p>
+<p class="text-gray-600 dark:text-[#9dabb9] text-sm font-medium leading-normal pt-2">Technologies: React, CSS, JavaScript</p>
+</div>
+<div class="flex items-center gap-4 mt-6">
+<button class="flex-1 flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-9 px-4 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-white text-sm font-medium leading-normal hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors">
+<span class="truncate">GitHub</span>
+</button>
+<button class="flex-1 flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-9 px-4 bg-primary text-white text-sm font-medium leading-normal hover:bg-primary/90 transition-colors">
+<span class="truncate">Live Demo</span>
+</button>
+</div>
+</div>
+</div>
+<div class="flex flex-col items-stretch justify-start rounded-xl shadow-lg bg-white dark:bg-[#1c2127] transition-all hover:shadow-2xl hover:-translate-y-1">
+<div class="relative w-full bg-center bg-no-repeat aspect-video bg-cover rounded-t-xl" data-alt="Abstract gradient of teal and green" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBjd2msrJ_GVGKI8eOl30VwpD-A9F4lVUN4wCueQrMQKjznxPULE6cEaG3GcSrxGlhI5OuSwEuGc8Z-Vuxc-gNDaqM9bwyaatuXxEGh_OJXAzHwCHeh6ho7JAzbiaYnBMv-jnvSw80AfRlR3Jr7pKJVj8koNaae1lUpdctyq0X8_qWG8ab3kNgtmg0wreyhgrKCRHWNbHZWH014Q7WfQza9CHn6H3tMit2Uw5Nu120Qf0TXGBcd6UpkNbfuxjqAd0_nlxuP2_Kbjh-9");'></div>
+<div class="flex flex-col flex-grow items-stretch justify-between p-6">
+<div class="flex flex-col gap-2">
+<p class="text-xl font-bold leading-tight tracking-[-0.015em] text-gray-900 dark:text-white">E-commerce App</p>
+<p class="text-gray-600 dark:text-[#9dabb9] text-base font-normal leading-normal">An online store for selling products with a clean and modern interface.</p>
+<p class="text-gray-600 dark:text-[#9dabb9] text-sm font-medium leading-normal pt-2">Technologies: Vue, Firebase, Stripe</p>
+</div>
+<div class="flex items-center gap-4 mt-6">
+<button class="flex-1 flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-9 px-4 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-white text-sm font-medium leading-normal hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors">
+<span class="truncate">GitHub</span>
+</button>
+<button class="flex-1 flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-9 px-4 bg-primary text-white text-sm font-medium leading-normal hover:bg-primary/90 transition-colors">
+<span class="truncate">Live Demo</span>
+</button>
+</div>
+</div>
+</div>
+<div class="flex flex-col items-stretch justify-start rounded-xl shadow-lg bg-white dark:bg-[#1c2127] transition-all hover:shadow-2xl hover:-translate-y-1">
+<div class="relative w-full bg-center bg-no-repeat aspect-video bg-cover rounded-t-xl" data-alt="Abstract gradient of pink and orange" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA769ZkUm10G2kMDYTPg-BnQWJhWPkgCYNMn4YijTHUq1jbch8p_gV6La8QzBC_PTGv1m6EmVDSGtVq80ZPrAIMWcqH6AIFCjaLEhK1wM-vmEH6Zap83Sp-l7ejupQgZAq8SnLTwS2MJ2kTjB7roSFVc2nu_m9t1d72INuE2ipp6C-xu1Bcy87XU0PqAmzQ37WO_zlx5g5CtJ0wcmuWUV4bcq5qnaMucFldgi4GKWFc_FzNXI2BJ7nebQxY8ot2Ozicd_QRX8kveCuw");'></div>
+<div class="flex flex-col flex-grow items-stretch justify-between p-6">
+<div class="flex flex-col gap-2">
+<p class="text-xl font-bold leading-tight tracking-[-0.015em] text-gray-900 dark:text-white">Weather App</p>
+<p class="text-gray-600 dark:text-[#9dabb9] text-base font-normal leading-normal">A simple app to check the weather forecast for any city in the world.</p>
+<p class="text-gray-600 dark:text-[#9dabb9] text-sm font-medium leading-normal pt-2">Technologies: HTML, CSS, JavaScript, API</p>
+</div>
+<div class="flex items-center gap-4 mt-6">
+<button class="flex-1 flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-9 px-4 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-white text-sm font-medium leading-normal hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors">
+<span class="truncate">GitHub</span>
+</button>
+<button class="flex-1 flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-9 px-4 bg-primary text-white text-sm font-medium leading-normal hover:bg-primary/90 transition-colors">
+<span class="truncate">Live Demo</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

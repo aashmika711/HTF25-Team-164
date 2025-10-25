@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Skills Section</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#137fec",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101922",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<div class="px-4 md:px-10 lg:px-20 xl:px-40 flex flex-1 justify-center py-10 md:py-20">
+<div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+<div class="flex justify-between items-center px-4 pb-3 pt-5">
+<h2 class="text-gray-900 dark:text-white text-2xl font-bold leading-tight tracking-[-0.015em]">Skills</h2>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-primary text-white gap-2 pl-4 text-base font-bold leading-normal tracking-[0.015em] hover:bg-primary/90 transition-colors">
+<span class="material-symbols-outlined text-white text-2xl">add</span>
+<span class="truncate">Add Skill</span>
+</button>
+</div>
+<div class="grid grid-cols-[repeat(auto-fit,minmax(180px,1fr))] gap-4 p-4">
+<div class="flex flex-1 gap-3 rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800/50 p-4 items-center hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors cursor-pointer">
+<span class="material-symbols-outlined text-gray-600 dark:text-gray-400 text-2xl">design_services</span>
+<h2 class="text-gray-900 dark:text-white text-base font-bold leading-tight">UI/UX Design</h2>
+</div>
+<div class="flex flex-1 gap-3 rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800/50 p-4 items-center hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors cursor-pointer">
+<span class="material-symbols-outlined text-gray-600 dark:text-gray-400 text-2xl">gesture</span>
+<h2 class="text-gray-900 dark:text-white text-base font-bold leading-tight">Prototyping</h2>
+</div>
+<div class="flex flex-1 gap-3 rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800/50 p-4 items-center hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors cursor-pointer">
+<span class="material-symbols-outlined text-gray-600 dark:text-gray-400 text-2xl">phone_android</span>
+<h2 class="text-gray-900 dark:text-white text-base font-bold leading-tight">Mobile App Design</h2>
+</div>
+<div class="flex flex-1 gap-3 rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800/50 p-4 items-center hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors cursor-pointer">
+<span class="material-symbols-outlined text-gray-600 dark:text-gray-400 text-2xl">code</span>
+<h2 class="text-gray-900 dark:text-white text-base font-bold leading-tight">Web Development</h2>
+</div>
+<div class="flex flex-1 gap-3 rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800/50 p-4 items-center hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors cursor-pointer">
+<span class="material-symbols-outlined text-gray-600 dark:text-gray-400 text-2xl">css</span>
+<h2 class="text-gray-900 dark:text-white text-base font-bold leading-tight">HTML/CSS</h2>
+</div>
+<div class="flex flex-1 gap-3 rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800/50 p-4 items-center hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors cursor-pointer">
+<span class="material-symbols-outlined text-gray-600 dark:text-gray-400 text-2xl">javascript</span>
+<h2 class="text-gray-900 dark:text-white text-base font-bold leading-tight">JavaScript</h2>
+</div>
+<div class="flex flex-1 gap-3 rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800/50 p-4 items-center hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors cursor-pointer">
+<span class="material-symbols-outlined text-gray-600 dark:text-gray-400 text-2xl">palette</span>
+<h2 class="text-gray-900 dark:text-white text-base font-bold leading-tight">Graphic Design</h2>
+</div>
+<div class="flex flex-1 gap-3 rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800/50 p-4 items-center hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors cursor-pointer">
+<span class="material-symbols-outlined text-gray-600 dark:text-gray-400 text-2xl">camera_alt</span>
+<h2 class="text-gray-900 dark:text-white text-base font-bold leading-tight">Photography</h2>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>
